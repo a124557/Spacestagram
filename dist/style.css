@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+background: #bdc3c7;
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
+background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title{
+  color: white;
+  font-weight: bold;
+    animation: fadeIn, lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+
+}
+
+#subheading{
+  color: white;
+  animation: fadeIn, lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    transform: opactiy: 1;
+  }
+}
+
+#new{
+  height: 400px;
+  width: 400px;
+  color: white;
+}
+
+#new1{
+  height: 400px;
+  width: 400px;
+  background: blue;
+}
+
+img{
+  object-fit: fill;
+}
+
+#testing{
+  background: green;
+  height: 200px;
+  width: 400px;
+}
+
+.card{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#img0{
+  height: 600px;
+  width: auto;
+}
+
+.heart{
+  color: red;
+  margin-left: 15px;
+}
